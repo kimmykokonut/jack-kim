@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Voting</title>
+</head>
+<body>
+    <h1>Turn out the Vote!</h1>
+    <form>
+        <label for="ageInput">Please enter your current age</label>
+        <input id="ageInput" type="number" name="ageInput">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="over17" class="hidden">
+        <h2>You are old enough to vote!</h2>
+        <p>Please see these links to learn more about the process</p>
+        <ul>
+            <li><a href="https://www.usa.gov/register-to-vote">Register to Vote</a></li>
+            <li><a href="https://www.usa.gov/how-to-vote">How, Where and When to Vote</a></li>
+            <li><a href="https://www.usa.gov/state-election-office">Find my local election office</a></li>
+        </ul>
+    </div>
+
+    <div id="under18" class="hidden">
+        <h2>Thanks for your interest! Almost of age</h2>
+        <p>Please visit some of these link that lay out guidlines and give info on proscpective voters</p>
+        <ul>
+            <li><a href="https://www.ncsl.org/elections-and-campaigns/preregistration-for-young-voters">Preregistration</a></li>
+            <li><a href="https://circle.tufts.edu/latest-research/growing-voters-18-ways-youth-under-18-can-contribute-elections">How to contribute</a></li>
+            <li><a href="https://www.rockthevote.org/">Rock The Vote</a></li>
+        </ul>
+
+    </div>
+
+
+
+</body>
+</html>
