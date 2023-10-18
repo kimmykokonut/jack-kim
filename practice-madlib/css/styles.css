@@ -1,0 +1,24 @@
+.hidden {
+    display: none;
+}
+body {
+    background-image: url('/practice-madlib/img/dog.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 10% 20% 10%;
+    padding: 10px;
+    border: 3px solid black;
+    width: 40vw;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
